@@ -1,5 +1,5 @@
 CC      = gcc
-CFLAGS  = -Wall -Wextra -std=c11 -g
+CFLAGS  = -Wall -Wextra -std=c11 -O2 -DNDEBUG
 LDFLAGS = -lpthread
 
 TARGET  = os_sim
